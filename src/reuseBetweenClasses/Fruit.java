@@ -3,7 +3,7 @@ package reuseBetweenClasses;
 /**
  * Created by ss on 2017/10/9.
  */
-public class Fruit {
+public abstract class Fruit {
 
     protected int weight;
 
@@ -18,4 +18,6 @@ public class Fruit {
     public int getWeight() {
         return this.weight;
     }
+
+    abstract void loseWater();
 }

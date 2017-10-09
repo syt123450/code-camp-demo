@@ -9,6 +9,7 @@ public class Orange extends Fruit {
         super(weight);
     }
 
+    @Override
     public void loseWater() {
         this.weight = this.weight / 3;
     }
